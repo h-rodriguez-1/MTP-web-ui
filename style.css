@@ -165,10 +165,11 @@ td {
 }
 
 .gallery img {
+  display: block;
   width: 100%;
+  height: auto;
   border: 3px solid #000;
-  height: 220px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .card-grid {
@@ -208,6 +209,15 @@ button {
   transition: box-shadow 0.15s ease, transform 0.15s ease;
   width: 100%;
   max-width: 100%;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  max-width: none;
+  display: inline-block;
+  margin-right: 0.5rem;
+  transform: none;
+  box-shadow: none;
 }
 
 input:focus,
@@ -290,16 +300,32 @@ input[type="email"] {
 
 .img-card {
   width: 100%;
-  max-width: 340px;
+  max-width: 160px;
   height: auto;
   object-fit: contain;
   border: 3px solid #000;
 }
 
 .img-cab {
+  display: block;
   width: 100%;
-  height: 220px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
+}
+
+.join-flex {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.join-flex .notice {
+  flex: 0 0 auto;
+}
+
+.join-flex .form-wrap {
+  flex: 1 1 260px;
 }
 
 /* Responsive tweaks */
@@ -374,7 +400,7 @@ input[type="email"] {
 
   .gallery img,
   .img-cab {
-    height: 180px;
+    height: auto;
   }
 
   .img-hero {
