@@ -123,6 +123,20 @@ section {
   box-shadow: 6px 6px 0 #000;
 }
 
+.hours-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 2fr) minmax(220px, 1fr);
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.hours-layout .notice {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+}
+
 .table-wrap {
   overflow-x: auto;
   border: 4px solid #000;
@@ -353,6 +367,10 @@ input[type="email"] {
 
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .hours-layout {
+    grid-template-columns: 1fr;
   }
 
   table {

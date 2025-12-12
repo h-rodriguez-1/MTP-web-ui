@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unirse | Retro-Future Arcade</title>
+  <title>Join | Retro-Future Arcade</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     /* CSS interno: ajuste pequeño solo para esta página */
@@ -15,56 +15,56 @@
 <body>
   <header>
     <div class="brand">
-      <span>Retro-Future Arcade</span>
-      <span class="badge">Membresía</span>
+  <span>Retro-Future Arcade</span>
+  <span class="badge">Membership</span>
     </div>
-    <nav aria-label="Navegación principal">
+    <nav aria-label="Main navigation">
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="games.html">Colección</a></li>
-        <li><a href="join.html">Unirse</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Collection</a></li>
+        <li><a href="join.html">Join</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section aria-labelledby="membresia">
-      <h1 id="membresia">Únete a la crew</h1>
-      <p>Acceso prioritario a torneos, descuentos en la barra y tours técnicos por el museo.</p>
-      <p class="notice" id="aviso-menores" style="background:#fffd8c; border-color:#000;">⚠ No se permite la entrada a menores después de las 22:00.</p>
+      <h1 id="membresia">Join the crew</h1>
+      <p>Priority access to tournaments, bar discounts, and behind-the-scenes tech tours.</p>
+      <p class="notice" id="aviso-menores" style="background:#fffd8c; border-color:#000;">⚠ No minors allowed after 10 PM.</p>
       <div class="join-flex">
         <figure class="notice" style="max-width: 220px;">
-          <img class="img-card" src="assets/img/membership_card.png" alt="Tarjeta de membresía estilo neón" />
-          <figcaption class="muted">Tarjeta de membresía (editable en assets/img/).</figcaption>
+          <img class="img-card" src="assets/img/membership_card.png" alt="Neon-styled membership card" />
+          <figcaption class="muted">Membership card (replace anytime in assets/img/).</figcaption>
         </figure>
         <form class="form-wrap" action="#" method="post">
         <div class="grid-two">
-          <label for="nombre">Nombre completo
-            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+            <label for="nombre">Full name
+              <input id="nombre" name="nombre" type="text" placeholder="Your name" required />
           </label>
-          <label for="correo">Correo electrónico
-            <input id="correo" name="correo" type="email" placeholder="ejemplo@correo.com" required />
+            <label for="correo">Email
+              <input id="correo" name="correo" type="email" placeholder="you@example.com" required />
           </label>
         </div>
 
-        <label for="membresia-tipo">Tipo de membresía
+          <label for="membresia-tipo">Membership type
           <select id="membresia-tipo" name="membresia" required>
-            <option value="">Selecciona</option>
-            <option value="player">Player (mensual)</option>
-            <option value="collector">Collector (anual)</option>
-            <option value="vip">VIP (ilimitado)</option>
+              <option value="">Select</option>
+              <option value="player">Player (monthly)</option>
+              <option value="collector">Collector (annual)</option>
+              <option value="vip">VIP (unlimited)</option>
           </select>
         </label>
 
-        <label for="mensaje">Mensaje o solicitud especial
-          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué te entusiasma del arcade"></textarea>
+          <label for="mensaje">Message or special request
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tell us what excites you about arcades"></textarea>
         </label>
 
         <label>
-          <input type="checkbox" name="terminos" required /> Acepto el reglamento y políticas del museo-bar.
+            <input type="checkbox" name="terminos" required /> I accept the house rules and policies.
         </label>
 
-        <button type="submit">Enviar solicitud</button>
+          <button type="submit">Send application</button>
         </form>
       </div>
     </section>
@@ -72,11 +72,11 @@
 
   <footer>
     <div class="footer-grid">
-      <span data-reloj aria-live="polite">Hora local: --:--</span>
+      <span data-reloj aria-live="polite">Local time: --:--</span>
       <div>
-        <a href="games.html">Ver colección</a>
+        <a href="games.html">View collection</a>
         <span aria-hidden="true"> | </span>
-        <a href="index.html">Inicio</a>
+        <a href="index.html">Home</a>
       </div>
     </div>
   </footer>

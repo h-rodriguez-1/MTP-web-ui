@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Retro-Future Arcade | Museo Bar</title>
+  <title>Retro-Future Arcade | Museum Bar</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <div class="brand">
       <span>Retro-Future Arcade</span>
-      <span class="badge">Museo + Bar</span>
+      <span class="badge">Museum + Bar</span>
     </div>
     <nav aria-label="Navegación principal">
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="games.html">Colección</a></li>
-        <li><a href="join.html">Unirse</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Collection</a></li>
+        <li><a href="join.html">Join</a></li>
       </ul>
     </nav>
   </header>
@@ -24,52 +24,54 @@
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div>
-        <p class="tagline" id="hero-title">Museo-bar dedicado a las leyendas del arcade.</p>
-        <p>Vive el pulso neón de los 80s y 90s con cocteles futuristas, torneos semanales y una curaduría de gabinetes restaurados. Todo con aire brutalista y sabor a bit.</p>
-        <p class="notice" id="aviso-menores" style="background: #fffd8c; border-color: #000;">⚠ No se permite la entrada a menores después de las 22:00.</p>
+        <p class="tagline" id="hero-title">Museum-bar devoted to arcade legends.</p>
+        <p>Feel the neon pulse of the 80s and 90s with futuristic cocktails, weekly tournaments, and a curated lineup of restored cabinets. All with brutalist attitude and 8-bit soul.</p>
+        <p class="notice" id="aviso-menores" style="background: #fffd8c; border-color: #000;">⚠ No minors allowed after 10 PM.</p>
       </div>
       <div>
-        <img class="img-hero" src="assets/img/main_hero.png" alt="Ilustración principal retro futurista del museo-bar arcade" />
+        <img class="img-hero" src="assets/img/main_hero.png" alt="Retro-futuristic hero illustration of the arcade museum-bar" />
       </div>
     </section>
 
     <section aria-labelledby="horarios">
-      <h2 id="horarios">Horarios</h2>
-      <p class="muted">Lista rápida para planear tu visita.</p>
-      <ul class="hours-list">
-        <li>Lun - Jue: 14:00 - 00:00</li>
-        <li>Vie: 14:00 - 02:00</li>
-        <li>Sáb: 12:00 - 02:00</li>
-        <li>Dom: 12:00 - 22:00</li>
-      </ul>
-      <figure class="notice" style="margin-top: 1rem; max-width: 320px;">
-        <img class="img-schedule" src="assets/img/schedule_times.png" alt="Cartel de horarios estilo neón" />
-        <figcaption class="muted">Cartel gráfico de horarios (reemplazable en assets/img/).</figcaption>
-      </figure>
+      <h2 id="horarios">Hours</h2>
+      <p class="muted">Quick list to plan your visit.</p>
+      <div class="hours-layout">
+        <ul class="hours-list">
+          <li>Mon - Thu: 2 PM - 12 AM</li>
+          <li>Fri: 2 PM - 2 AM</li>
+          <li>Sat: 12 PM - 2 AM</li>
+          <li>Sun: 12 PM - 10 PM</li>
+        </ul>
+        <figure class="notice">
+          <img class="img-schedule" src="assets/img/schedule_times.png" alt="Neon-style schedule poster" />
+          <figcaption class="muted">Glowing schedule for arcade nights and cocktails.</figcaption>
+        </figure>
+      </div>
     </section>
 
     <section class="card-grid" aria-labelledby="destacados">
-      <h2 id="destacados">Destacados de la semana</h2>
+      <h2 id="destacados">Highlights of the week</h2>
       <article class="card">
-        <h3>Duelo de High Scores</h3>
-        <p>Reta a la comunidad en Metal Slug X y Galaga. Premios en tokens y merch.</p>
+        <h3>High Score Duel</h3>
+        <p>Challenge the community on Metal Slug X and Galaga. Win tokens and merch.</p>
       </article>
       <article class="card">
-        <h3>Noche Synthwave</h3>
-        <p>DJ invitado con vinilos retro-futuristas. Cóctel fosforescente incluido.</p>
+        <h3>Synthwave Night</h3>
+        <p>Guest DJ spinning retro-futurist vinyl. Includes a glow-in-the-dark cocktail.</p>
       </article>
       <article class="card">
-        <h3>Taller de reparación</h3>
-        <p>Aprende a calibrar CRTs y joysticks con nuestro técnico residente.</p>
+        <h3>Repair Workshop</h3>
+        <p>Learn to calibrate CRTs and joysticks with our resident technician.</p>
       </article>
     </section>
   </main>
 
   <footer>
     <div class="footer-grid">
-      <span data-reloj aria-live="polite">Hora local: --:--</span>
+      <span data-reloj aria-live="polite">Local time: --:--</span>
       <div>
-        <a href="join.html">Hazte miembro</a>
+        <a href="join.html">Become a member</a>
       </div>
     </div>
   </footer>
