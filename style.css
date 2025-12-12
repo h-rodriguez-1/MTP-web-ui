@@ -92,7 +92,10 @@ main {
 
 .hero img {
   width: 100%;
+  max-width: 520px;
+  height: auto;
   border: 4px solid #000;
+  object-fit: contain;
 }
 
 .tagline {
@@ -164,6 +167,8 @@ td {
 .gallery img {
   width: 100%;
   border: 3px solid #000;
+  height: 220px;
+  object-fit: cover;
 }
 
 .card-grid {
@@ -275,6 +280,28 @@ input[type="email"] {
   box-shadow: 6px 6px 0 #000;
 }
 
+.img-schedule {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: contain;
+  border: 3px solid #000;
+}
+
+.img-card {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  object-fit: contain;
+  border: 3px solid #000;
+}
+
+.img-cab {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
 /* Responsive tweaks */
 @media (max-width: 900px) {
   header,
@@ -343,6 +370,15 @@ input[type="email"] {
 
   .hours-list li {
     width: 100%;
+  }
+
+  .gallery img,
+  .img-cab {
+    height: 180px;
+  }
+
+  .img-hero {
+    max-width: 100%;
   }
 
   .footer-grid {
