@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro-Future Arcade | Museo Bar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span>Retro-Future Arcade</span>
+      <span class="badge">Museo + Bar</span>
+    </div>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="games.html">Colección</a></li>
+        <li><a href="join.html">Unirse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="tagline" id="hero-title">Museo-bar dedicado a las leyendas del arcade.</p>
+        <p>Vive el pulso neón de los 80s y 90s con cocteles futuristas, torneos semanales y una curaduría de gabinetes restaurados. Todo con aire brutalista y sabor a bit.</p>
+        <p class="notice" id="aviso-menores" style="background: #fffd8c; border-color: #000;">⚠ No se permite la entrada a menores después de las 22:00.</p>
+      </div>
+      <div>
+        <img src="assets/hero.svg" alt="Ilustración de gabinetes arcade con colores neón" />
+      </div>
+    </section>
+
+    <section aria-labelledby="horarios">
+      <h2 id="horarios">Horarios</h2>
+      <p class="muted">Lista rápida para planear tu visita.</p>
+      <ul class="hours-list">
+        <li>Lun - Jue: 14:00 - 00:00</li>
+        <li>Vie: 14:00 - 02:00</li>
+        <li>Sáb: 12:00 - 02:00</li>
+        <li>Dom: 12:00 - 22:00</li>
+      </ul>
+    </section>
+
+    <section class="card-grid" aria-labelledby="destacados">
+      <h2 id="destacados">Destacados de la semana</h2>
+      <article class="card">
+        <h3>Duelo de High Scores</h3>
+        <p>Reta a la comunidad en Metal Slug X y Galaga. Premios en tokens y merch.</p>
+      </article>
+      <article class="card">
+        <h3>Noche Synthwave</h3>
+        <p>DJ invitado con vinilos retro-futuristas. Cóctel fosforescente incluido.</p>
+      </article>
+      <article class="card">
+        <h3>Taller de reparación</h3>
+        <p>Aprende a calibrar CRTs y joysticks con nuestro técnico residente.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <span data-reloj aria-live="polite">Hora local: --:--</span>
+      <div>
+        <a href="join.html">Hazte miembro</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

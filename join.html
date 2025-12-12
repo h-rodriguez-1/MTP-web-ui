@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unirse | Retro-Future Arcade</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* CSS interno: ajuste pequeño solo para esta página */
+    .form-wrap {
+      border-style: dashed;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span>Retro-Future Arcade</span>
+      <span class="badge">Membresía</span>
+    </div>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="games.html">Colección</a></li>
+        <li><a href="join.html">Unirse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="membresia">
+      <h1 id="membresia">Únete a la crew</h1>
+      <p>Acceso prioritario a torneos, descuentos en la barra y tours técnicos por el museo.</p>
+      <p class="notice" id="aviso-menores" style="background:#fffd8c; border-color:#000;">⚠ No se permite la entrada a menores después de las 22:00.</p>
+      <form class="form-wrap" action="#" method="post">
+        <div class="grid-two">
+          <label for="nombre">Nombre completo
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+          </label>
+          <label for="correo">Correo electrónico
+            <input id="correo" name="correo" type="email" placeholder="ejemplo@correo.com" required />
+          </label>
+        </div>
+
+        <label for="membresia-tipo">Tipo de membresía
+          <select id="membresia-tipo" name="membresia" required>
+            <option value="">Selecciona</option>
+            <option value="player">Player (mensual)</option>
+            <option value="collector">Collector (anual)</option>
+            <option value="vip">VIP (ilimitado)</option>
+          </select>
+        </label>
+
+        <label for="mensaje">Mensaje o solicitud especial
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué te entusiasma del arcade"></textarea>
+        </label>
+
+        <label>
+          <input type="checkbox" name="terminos" required /> Acepto el reglamento y políticas del museo-bar.
+        </label>
+
+        <button type="submit">Enviar solicitud</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <span data-reloj aria-live="polite">Hora local: --:--</span>
+      <div>
+        <a href="games.html">Ver colección</a>
+        <span aria-hidden="true"> | </span>
+        <a href="index.html">Inicio</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

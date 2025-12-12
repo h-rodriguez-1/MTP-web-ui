@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder arcade hero</title>
+  <desc id="desc">Colores neón para ilustrar un arcade retro futurista.</desc>
+  <rect width="600" height="360" fill="#f4f1ec" stroke="#000" stroke-width="10"/>
+  <rect x="30" y="40" width="180" height="280" fill="#38ff7f" stroke="#000" stroke-width="8"/>
+  <rect x="220" y="80" width="160" height="200" fill="#ff2bdc" stroke="#000" stroke-width="8"/>
+  <rect x="390" y="50" width="150" height="250" fill="#4de0ff" stroke="#000" stroke-width="8"/>
+  <text x="50%" y="330" font-family="'Courier New', monospace" font-size="28" text-anchor="middle" fill="#000" stroke="#000" stroke-width="1">Retro-Future Arcade</text>
+</svg>

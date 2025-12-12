@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" role="img" aria-labelledby="cab3title cab3desc">
+  <title id="cab3title">Cabinet placeholder 3</title>
+  <desc id="cab3desc">Gabinete arcade verde con estilo brutalista.</desc>
+  <rect width="320" height="220" fill="#fff" stroke="#000" stroke-width="8"/>
+  <rect x="30" y="30" width="260" height="160" fill="#38ff7f" stroke="#000" stroke-width="8"/>
+  <rect x="70" y="60" width="190" height="100" fill="#4de0ff" stroke="#000" stroke-width="6"/>
+  <circle cx="120" cy="135" r="10" fill="#000"/>
+  <circle cx="150" cy="135" r="10" fill="#000"/>
+  <rect x="200" y="130" width="40" height="12" fill="#000"/>
+</svg>
