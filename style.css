@@ -9,11 +9,23 @@
   --border: #000;
 }
 
+
 * {
   box-sizing: border-box;
 }
 
+main {
+  flex-grow: 1; 
+  
+  padding: 2rem; 
+}
+
 body {
+	
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;	
+  
   margin: 0;
   font-family: "Courier New", "Lucida Console", monospace;
   background: var(--bg);
@@ -28,6 +40,7 @@ footer {
   padding: 1rem 2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  flex-shrink: 0;
 }
 
 header .brand {
@@ -125,7 +138,7 @@ section {
 
 .hours-layout {
   display: grid;
-  grid-template-columns: minmax(320px, 2fr) minmax(220px, 1fr);
+  grid-template-columns: minmax(320px, 2fr) minmax(220px, 1fr); */
   gap: 1.25rem;
   align-items: flex-start;
   margin-top: 1rem;
